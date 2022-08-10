@@ -146,7 +146,8 @@ const AbsoluteExternalLinks = () => (
 
 const HeroiconsLogo = () => (
 	<div className="relative">
-		<Style className="h-14 text-purple-50">
+		{/* 
+		<Style className="h-14 text-blue-50">
 			<svg fill="currentColor" viewBox="0 0 240 56" xmlns="http://www.w3.org/2000/svg">
 				<path
 					fillRule="evenodd"
@@ -163,18 +164,21 @@ const HeroiconsLogo = () => (
 				<path d="M225.678 47.6722C222.168 47.6722 219.275 46.8135 216.998 45.0962C214.72 43.3788 213.414 41.1015 213.078 38.2642H219.07C219.368 39.5335 220.078 40.6348 221.198 41.5682C222.318 42.4642 223.792 42.9122 225.622 42.9122C227.414 42.9122 228.72 42.5388 229.542 41.7922C230.363 41.0455 230.774 40.1868 230.774 39.2162C230.774 37.7975 230.195 36.8455 229.038 36.3602C227.918 35.8375 226.35 35.3708 224.334 34.9602C222.766 34.6242 221.198 34.1762 219.63 33.6162C218.099 33.0562 216.811 32.2722 215.766 31.2642C214.758 30.2188 214.254 28.8188 214.254 27.0642C214.254 24.6375 215.187 22.6215 217.054 21.0162C218.92 19.3735 221.534 18.5522 224.894 18.5522C227.992 18.5522 230.494 19.2988 232.398 20.7922C234.339 22.2855 235.478 24.3948 235.814 27.1202H230.102C229.915 25.9255 229.355 24.9922 228.422 24.3202C227.526 23.6482 226.312 23.3122 224.782 23.3122C223.288 23.3122 222.131 23.6295 221.31 24.2642C220.488 24.8615 220.078 25.6455 220.078 26.6162C220.078 27.5868 220.638 28.3522 221.758 28.9122C222.915 29.4722 224.427 29.9762 226.294 30.4242C228.16 30.8348 229.878 31.3202 231.446 31.8802C233.051 32.4028 234.339 33.1868 235.31 34.2322C236.28 35.2775 236.766 36.8082 236.766 38.8242C236.803 41.3628 235.814 43.4722 233.798 45.1522C231.819 46.8322 229.112 47.6722 225.678 47.6722Z" />
 			</svg>
 		</Style>
+		 
 		<div className="absolute left-full inset-y-0">
 			<div className="flex flex-row items-center h-full">
-				<Style className="-mb-1 w-11 h-11 text-purple-50 opacity-50">
+				<Style className="-mb-1 w-11 h-11 text-blue-50 opacity-50">
 					<SVGFlag />
 				</Style>
 			</div>
 		</div>
+		*/}
+		<h1 className="text-4xl text-white">Dazzle Icons</h1>
 	</div>
 )
 
 const Attribution = () => (
-	<h2 className="text-center font-medium text-xl text-purple-50">
+	<h2 className="text-center font-medium text-xl text-blue-50">
 		<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
 			<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
 				<Style className="w-7 h-7">
@@ -186,18 +190,18 @@ const Attribution = () => (
 				<Space />
 				<a
 					className="font-semibold no-underline hover:underline"
-					href="https://twitter.com/steveschoger"
+					href="https://shtemuujin.com"
 					data-splitbee-event="Click Author Link"
-					data-splitbee-event-type="Steve Schoger"
+					data-splitbee-event-type="Temuujin"
 					{...target_blank}
 				>
-					@steveschoger
+					@temuujin
 				</a>
 				{"."}
 			</span>
 			<Space />
 			<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
-				Viewer by
+				Made by
 				{/* <span className="inline sm:hidden"> */}
 				{/* 	Viewer by */}
 				{/* </span> */}
@@ -207,12 +211,12 @@ const Attribution = () => (
 				<Space />
 				<a
 					className="font-semibold no-underline hover:underline"
-					href="https://twitter.com/username_ZAYDEK"
+					href="https://github.com/acepmon"
 					data-splitbee-event="Click Author Link"
-					data-splitbee-event-type="Zaydek Michels-Gualtieri"
+					data-splitbee-event-type="Tsogtbayar Davaadorj"
 					{...target_blank}
 				>
-					@username_ZAYDEK
+					@acepmon
 				</a>
 				{"."}
 			</span>
@@ -225,13 +229,13 @@ const CTAButtons = () => (
 	<div className="flex flex-col sm:flex-row w-full sm:w-auto">
 		<Reset className="block">
 			<a
-				href="https://figma.com/file/vfjBXrSSOCgmVEX5fdvV4L"
+				href="https://app.zeplin.io/project/62c3a406af241e1aa67552ff/screen/62c3da7d53cb4f197f7b6f2d"
 				data-splitbee-event="Click CTA Link"
 				data-splitbee-event-type="Figma"
 				{...target_blank}
 			>
-				<div className="p-5 bg-purple-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3">
-					<p className="text-center sm:text-left font-medium text-lg leading-none text-purple-50">
+				<div className="p-5 bg-blue-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3">
+					<p className="text-center sm:text-left font-medium text-lg leading-none text-blue-50">
 						<TextRow>
 							<Style className="w-5 h-5" style={{ filter: "brightness(125%)" }}>
 								<svg viewBox="0 0 38 57" xmlns="http://www.w3.org/2000/svg">
@@ -253,13 +257,13 @@ const CTAButtons = () => (
 		<div className="w-3 h-3" />
 		<Reset className="block">
 			<a
-				href="https://github.com/tailwindlabs/heroicons"
+				href="https://github.com/gcomm-devs/dazzle-icons"
 				data-splitbee-event="Click CTA Link"
 				data-splitbee-event-type="GitHub"
 				{...target_blank}
 			>
-				<div className="p-5 bg-purple-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3">
-					<p className="text-center sm:text-left font-medium text-lg leading-none text-purple-50">
+				<div className="p-5 bg-blue-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3">
+					<p className="text-center sm:text-left font-medium text-lg leading-none text-blue-50">
 						<TextRow>
 							<Style className="w-5 h-5">
 								<svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -382,8 +386,6 @@ const Sponsors = () => (
 
 const SectionHero = () => (
 	<section className="relative">
-		<AbsoluteExternalLinks />
-
 		{/* NOTE: Use px-* here because of backgrounds. */}
 		<header className="px-4 lg:px-6 flex flex-row justify-center bg-theme dark:bg-dark-theme">
 			<div className="w-full max-w-screen-xl">
@@ -404,13 +406,6 @@ const SectionHero = () => (
 					<CTAButtons />
 				</div>
 				{/* </div> */}
-
-				<div className="hidden sm:block">
-					<div className="h-16" />
-					<div className="flex flex-row justify-center">
-						<Sponsors />
-					</div>
-				</div>
 
 				<div className="h-16" />
 				<div style={{ height: "var(--search-bar-negative-margin)" }} />
@@ -433,8 +428,8 @@ const SectionHero = () => (
 					html {
 						background-attachment: fixed, fixed;
 						/* https://yoksel.github.io/url-encoder */
-						background-image: url("data:image/svg+xml,%3Csvg fill='hsl(270, 100%25, 50%25)' viewBox='0 0 1 1' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' /%3E%3C/svg%3E"),
-							url("data:image/svg+xml,%3Csvg fill='hsl(270, 100%25, 50%25)' viewBox='0 0 32 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 1C4 1 0 0 0 0H32C32 0 28 1 16 1Z' /%3E%3C/svg%3E");
+						background-image: url("data:image/svg+xml,%3Csvg fill='#3f83f8' viewBox='0 0 1 1' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' /%3E%3C/svg%3E"),
+							url("data:image/svg+xml,%3Csvg fill='#3f83f8' viewBox='0 0 32 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 1C4 1 0 0 0 0H32C32 0 28 1 16 1Z' /%3E%3C/svg%3E");
 						background-repeat: repeat-x, no-repeat;
 						background-size: 112px, 100%;
 						background-position: 0 0, 0 112px;
@@ -444,8 +439,8 @@ const SectionHero = () => (
 					html.dark {
 						background-attachment: fixed, fixed;
 						/* https://yoksel.github.io/url-encoder */
-						background-image: url("data:image/svg+xml,%3Csvg fill='hsl(270, 100%25, 43.75%25)' viewBox='0 0 1 1' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' /%3E%3C/svg%3E"),
-							url("data:image/svg+xml,%3Csvg fill='hsl(270, 100%25, 43.75%25)' viewBox='0 0 32 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 1C4 1 0 0 0 0H32C32 0 28 1 16 1Z' /%3E%3C/svg%3E");
+						background-image: url("data:image/svg+xml,%3Csvg fill='#233876' viewBox='0 0 1 1' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' /%3E%3C/svg%3E"),
+							url("data:image/svg+xml,%3Csvg fill='#233876' viewBox='0 0 32 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 1C4 1 0 0 0 0H32C32 0 28 1 16 1Z' /%3E%3C/svg%3E");
 						background-repeat: repeat-x, no-repeat;
 						background-size: 112px, 100%;
 						background-position: 0 0, 0 112px;
@@ -608,7 +603,7 @@ const MemoSearch = React.memo(
 							<div className="flex flex-row items-center">
 								<Style
 									className="w-6 h-6 text-cool-gray-400 dark:text-cool-gray-600"
-									style={{ color: inputFocused && "var(--purple-500)" }}
+									style={{ color: inputFocused && "var(--blue-500)" }}
 								>
 									<Style className="transition duration-200 ease-out">
 										<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -663,10 +658,10 @@ const MemoSearch = React.memo(
 								<Reset className="focus:outline-none">
 									<Style className="transition duration-200 ease-out">
 										<button
-											className="p-2 relative text-purple-500 bg-purple-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
+											className="p-2 relative text-blue-500 bg-blue-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
 											style={{
-												color: state.controls.variant.solid && "var(--purple-50)",
-												backgroundColor: state.controls.variant.solid && "var(--purple-500)",
+												color: state.controls.variant.solid && "var(--blue-50)",
+												backgroundColor: state.controls.variant.solid && "var(--blue-500)",
 											}}
 											onClick={e =>
 												dispatch({
@@ -721,10 +716,10 @@ const MemoSearch = React.memo(
 								<Reset className="focus:outline-none">
 									<Style className="transition duration-200 ease-out">
 										<button
-											className="p-2 relative text-purple-500 bg-purple-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
+											className="p-2 relative text-blue-500 bg-blue-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
 											style={{
-												color: state.controls.copyAs.jsx && "var(--purple-50)",
-												backgroundColor: state.controls.copyAs.jsx && "var(--purple-500)",
+												color: state.controls.copyAs.jsx && "var(--blue-50)",
+												backgroundColor: state.controls.copyAs.jsx && "var(--blue-500)",
 											}}
 											onClick={e =>
 												dispatch({
@@ -779,10 +774,10 @@ const MemoSearch = React.memo(
 								<Reset className="focus:outline-none">
 									<Style className="transition duration-200 ease-out">
 										<button
-											className="p-2 relative text-purple-500 bg-purple-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
+											className="p-2 relative text-blue-500 bg-blue-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
 											style={{
-												color: state.controls.theme.darkMode && "var(--purple-50)",
-												backgroundColor: state.controls.theme.darkMode && "var(--purple-500)",
+												color: state.controls.theme.darkMode && "var(--blue-50)",
+												backgroundColor: state.controls.theme.darkMode && "var(--blue-500)",
 											}}
 											onClick={e =>
 												dispatch({
@@ -899,7 +894,7 @@ const MemoIcon = React.memo(({ variant, copyAsJSX, icon, dispatch }) => {
 				{/* New */}
 				{icon.new && (
 					<div className="p-4 absolute right-0 top-0 pointer-events-none">
-						<div className="w-2.5 h-2.5 bg-purple-500 rounded-full" />
+						<div className="w-2.5 h-2.5 bg-blue-500 rounded-full" />
 					</div>
 				)}
 
@@ -908,13 +903,13 @@ const MemoIcon = React.memo(({ variant, copyAsJSX, icon, dispatch }) => {
 					<Style className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transform scale-0 group-hover:scale-100 group-focus:scale-100">
 						{/* NOTE: Use duration-300 not duration-200. */}
 						<Style className="transition duration-300 ease-out">
-							<div className="w-20 h-20 bg-transparent bg-purple-500 dark:bg-purple-600 bg-opacity-12.5 dark:bg-opacity-100 rounded-full" />
+							<div className="w-20 h-20 bg-transparent bg-blue-500 dark:bg-blue-600 bg-opacity-12.5 dark:bg-opacity-100 rounded-full" />
 						</Style>
 					</Style>
 				</div>
 				<div className="absolute inset-0">
 					<div className="flex flex-row justify-center items-center h-full">
-						<Style className="w-8 h-8 text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-purple-600 group-focus:text-purple-600 dark:group-hover:text-purple-50 dark:group-focus:text-purple-50">
+						<Style className="w-8 h-8 text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-blue-600 group-focus:text-blue-600 dark:group-hover:text-blue-50 dark:group-focus:text-blue-50">
 							<SVG id={icon.name} svg={icon.svgs[variant]} />
 						</Style>
 					</div>

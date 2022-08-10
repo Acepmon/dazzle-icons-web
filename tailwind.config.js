@@ -42,8 +42,8 @@ module.exports = {
 				//   --theme: hsl(270, 100%, 50%);
 				//   --dark-theme: hsl(270, 100%, 43.75%);
 				// }
-				"theme": "#8000ff",
-				"dark-theme": "#7000df",
+				"theme": "#3f83f8",
+				"dark-theme": "#233876",
 			},
 			fontFamily: {
 				sans: [

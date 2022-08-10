@@ -1,7 +1,7 @@
 import Head from "next/head"
 
-const TITLE = "Heroicons – Free Open Source SVG Icon Library"
-const DESCRIPTION = "New MIT open source SVG icon library designed by Steve Schoger. Solid and stroke variants, one-click copy-paste, and Figma file. Built with Tailwind CSS."
+const TITLE = "Dazzle Icons – SVG icons for everyone"
+const DESCRIPTION = "New MIT open source SVG icon library designed by Temuujin. Solid and stroke variants, one-click copy-paste, and Figma file."
 
 const SEO = () => (
 	<Head>
@@ -36,7 +36,7 @@ const SEO = () => (
 		/>
 		<meta
 			property="og:url"
-			content="https://heroicons.dev"
+			content="https://dazzleui.com"
 		/>
 		<meta
 			property="og:title"
@@ -48,7 +48,7 @@ const SEO = () => (
 		/>
 		<meta
 			property="og:image"
-			content="https://heroicons.dev/static/social.png"
+			content="https://dazzleui.com/static/social.png"
 		/>
 
 		{/* Twitter */}
@@ -58,7 +58,7 @@ const SEO = () => (
 		/>
 		<meta
 			property="twitter:url"
-			content="https://heroicons.dev"
+			content="https://dazzleui.com"
 		/>
 		<meta
 			property="twitter:title"
@@ -70,13 +70,13 @@ const SEO = () => (
 		/>
 		<meta
 			property="twitter:image"
-			content="https://heroicons.dev/static/social.png"
+			content="https://dazzleui.com/static/social.png"
 		/>
 
 		{/* New */}
 		<meta
 			name="twitter:creator"
-			content="@username_ZAYDEK"
+			content="@acepmon"
 		/>
 
 	</Head>
