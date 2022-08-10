@@ -13,3 +13,4 @@
 # Production
 /build
 tailwind.generated.css
+.firebase/
