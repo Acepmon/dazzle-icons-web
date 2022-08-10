@@ -1,35 +1,4 @@
-# Heroicons Web Viewer
-
-A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.
-
-<br>
-<div align="center">
-	<img src="https://heroicons.dev/static/social.png" width="600">
-</div>
-<br>
-
-Icons created by [Steve Schoger](https://twitter.com/steveschoger), [heroicons.dev](https://heroicons.dev) created by me ([@username_ZAYDEK](https://twitter.com/username_ZAYDEK)).
-
-[Share with your friends on Twitter!](https://twitter.com/intent/tweet?text=Thanks%20@steveschoger,%20@adamwathan,%20and%20@username_ZAYDEK%20for%20Heroicons!%20%F0%9F%A4%A9&url=https://heroicons.dev)
-
-## Features
-
-✨ Tag-based search<br>
-✨ Search for only new icons using ‘new’: https://heroicons.dev/?query=new<br>
-✨ Click-to-copy to the clipboard as SVG or JSX<br>
-✨ Dark mode 😎<br>
-✨ Preferences sync to localStorage<br>
-✨ _No ads!_<br>
-
-## Contributing Guide
-
-Contributions are welcome! I’m actively maintaining this website.
-
-[heroicons.dev](https://heroicons.dev) is built on top of [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Splitbee](https://splitbee.io) for analytics. If you plan on contributing, the only thing you need to know is before you can build the development server, you need to run `yarn tailwind-dev` to build the Tailwind configuration file. `yarn tailwind-build` is the command for building the Tailwind configuration file for production (you probably don’t need to use this one).
-
-That’s pretty much it. I’m using a [custom ESLint configuration file](https://github.com/zaydek/dot-eslintrc.js) for formatting, but you can ignore this yourself when contributing.
-
-Thank you for contributing!
+# Dazzle Icons Web Viewer
 
 ## License
 
